@@ -1,6 +1,7 @@
 buildscript {
     repositories {
-        jcenter()
+        //jcenter()
+        mavenCentral()
     }
 
     dependencies {
@@ -31,9 +32,9 @@ android {
 
 repositories {
     mavenCentral()
-    maven {
-      url 'https://dl.bintray.com/intercom/intercom-maven'
-    }
+    //maven {
+    //  url 'https://dl.bintray.com/intercom/intercom-maven'
+    //}
 }
 
 dependencies {
